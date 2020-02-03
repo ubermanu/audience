@@ -11,8 +11,21 @@ const Container = styled.div`
   width: 100vw;
 `;
 
+const EmojiButton = ({ emoji, src }) => {
+  const audio = new Audio(`media/${src}`);
+  return <button onClick={() => audio.play()}>{emoji}</button>;
+};
+
 function App() {
-  return <Container></Container>;
+  return (
+    <Container>
+      {audience.map((item, i) => (
+        <div key={i}>
+          <EmojiButton {...item} />
+        </div>
+      ))}
+    </Container>
+  );
 }
 
 export default App;
