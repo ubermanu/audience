@@ -3,20 +3,27 @@ import styled from "styled-components";
 import EmojiButton from "./EmojiButton";
 import sounds from "./sounds.json";
 
-const Container = styled.div`
+const FlexContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   background: #111;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 `;
 
+const OneFourthCell = styled.div`
+  width: 25%;
+  overflow-x: hidden;
+`;
+
 const App = () => (
-  <Container>
+  <FlexContainer>
     {sounds.map((item, i) => (
-      <span key={i}>
+      <OneFourthCell key={i}>
         <EmojiButton {...item} />
-      </span>
+      </OneFourthCell>
     ))}
-  </Container>
+  </FlexContainer>
 );
 
 export default App;
