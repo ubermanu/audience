@@ -23,5 +23,8 @@
   // "remoteUser": "node",
 
   // Add the IDs of extensions you want installed when the container is created in the array below.
-  "extensions": ["dbaeumer.vscode-eslint"]
+  "extensions": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint"
+  ]
 }
