@@ -6,7 +6,8 @@
   },
   {
     "emoji": "😃",
-    "name": "Cheers"
+    "name": "Cheers",
+    "src": "337000__tim-kahn__cheer-01.wav"
   },
   {
     "emoji": "😂",
@@ -20,11 +21,13 @@
   },
   {
     "emoji": "😌",
-    "name": "Ahhh!"
+    "name": "Ahhh!",
+    "src": "336998__tim-kahn__awww-01.wav"
   },
   {
     "emoji": "😒",
-    "name": "Ohhh!"
+    "name": "Ohhh!",
+    "src": "37234__shades__crowd-ahh-2.wav"
   },
   {
     "emoji": "😤",
@@ -33,7 +36,8 @@
   },
   {
     "emoji": "🤡",
-    "name": "Badum tss!"
+    "name": "Badum tss!",
+    "src": "200254__rctperson85__badum-chhhhh.mp3"
   },
   {
     "emoji": "🦗",
