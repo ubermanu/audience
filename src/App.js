@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import EmojiButton from "./EmojiButton";
-import audience from "./audience.json";
-
-// console.log(audience);
+import sounds from "./sounds.json";
 
 const Container = styled.div`
   background: #111;
@@ -13,7 +11,7 @@ const Container = styled.div`
 
 const App = () => (
   <Container>
-    {audience.map((item, i) => (
+    {sounds.map((item, i) => (
       <span key={i}>
         <EmojiButton {...item} />
       </span>
