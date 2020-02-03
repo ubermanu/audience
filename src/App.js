@@ -1,20 +1,15 @@
 import React from "react";
-
-import audience from "./audience.json";
 import styled from "styled-components";
+import EmojiButton from "./EmojiButton";
+import audience from "./audience.json";
 
-console.log(audience);
+// console.log(audience);
 
 const Container = styled.div`
   background: #111;
   height: 100vh;
   width: 100vw;
 `;
-
-const EmojiButton = ({ emoji, src }) => {
-  const audio = new Audio(`media/${src}`);
-  return <button onClick={() => audio.play()}>{emoji}</button>;
-};
 
 function App() {
   return (
