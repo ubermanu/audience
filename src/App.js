@@ -11,16 +11,14 @@ const Container = styled.div`
   width: 100vw;
 `;
 
-function App() {
-  return (
-    <Container>
-      {audience.map((item, i) => (
-        <div key={i}>
-          <EmojiButton {...item} />
-        </div>
-      ))}
-    </Container>
-  );
-}
+const App = () => (
+  <Container>
+    {audience.map((item, i) => (
+      <span key={i}>
+        <EmojiButton {...item} />
+      </span>
+    ))}
+  </Container>
+);
 
 export default App;
