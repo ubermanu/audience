@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Button = styled.div`
@@ -22,7 +22,12 @@ const Name = styled.div`
 `;
 
 const EmojiButton = ({ emoji, name, src }) => {
-  const audio = new Audio(`media/${src}`);
+  const [audio, setAudio] = useState(new Audio());
+
+  useEffect(() => {
+    setAudio(new Audio(require(`./media/${src}`)));
+  }, [src]);
+
   return (
     <Button onClick={() => audio.play()}>
       <Emoji>{emoji}</Emoji>

@@ -2,18 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import sounds from "./sounds.json";
 
 // Reset styles of the application.
 import "normalize.css";
 
 // Render application
 ReactDOM.render(<App />, document.getElementById("root"));
-
-// Include all the sound resources so they are precached for the sw.
-sounds.each(sound => {
-  require("./media/" + sound.src);
-});
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
