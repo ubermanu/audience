@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.div`
-  border-radius: 50%;
-  display: inline-block;
   cursor: pointer;
   text-align: center;
   font-size: 10vw;
