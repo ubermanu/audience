@@ -16,9 +16,13 @@ const Emoji = styled.div`
 const Name = styled.div`
   font-size: 0.33em;
   font-family: "Arial", sans-serif;
-  color: white;
+  color: #000;
   margin-top: 1em;
-  text-shadow: 0 0 10px black;
+
+  @media (prefers-color-scheme: dark) {
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+  }
 `;
 
 const EmojiButton = ({ emoji, name, src }) => {
