@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import EmojiButton from "./EmojiButton";
-import sounds from "./sounds.json";
+import sounds from "./sounds.js";
 
 const Background = styled.div`
   background: #111;
