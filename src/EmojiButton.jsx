@@ -23,10 +23,9 @@ const Name = styled.div`
   }
 `;
 
-const EmojiButton = ({ emoji, name, src }) => {
-  const audio = new Audio(src);
+const EmojiButton = ({ emoji, name, src, ...rest }) => {
   return (
-    <Button onClick={() => audio.play()}>
+    <Button {...rest}>
       <Emoji>{emoji}</Emoji>
       <Name>{name}</Name>
     </Button>

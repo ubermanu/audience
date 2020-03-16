@@ -26,12 +26,33 @@ const OneFourthCell = styled.div`
   text-align: center;
 `;
 
+// Global sound object
+const audio = new Audio();
+
+// Returns TRUE if the player is running
+const isPlaying = () =>
+  audio.currentTime > 0 &&
+  !audio.paused &&
+  !audio.ended &&
+  audio.readyState > 2;
+
+// Toggle current playing sound
+const toggle = sound => {
+  if (isPlaying()) {
+    audio.pause();
+    audio.currentTime = 0;
+  } else {
+    audio.src = sound.src;
+    audio.play();
+  }
+};
+
 const App = () => (
   <Background>
     <FlexContainer>
       {sounds.map((item, i) => (
         <OneFourthCell key={i}>
-          <EmojiButton {...item} />
+          <EmojiButton {...item} onClick={() => toggle(item)} />
         </OneFourthCell>
       ))}
     </FlexContainer>
