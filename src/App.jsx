@@ -36,23 +36,28 @@ const isPlaying = () =>
   !audio.ended &&
   audio.readyState > 2;
 
-// Toggle current playing sound
-const toggle = sound => {
-  if (isPlaying()) {
-    audio.pause();
-    audio.currentTime = 0;
-  } else {
+// Play a sound
+const play = sound => {
+  if (!isPlaying()) {
     audio.src = sound.src;
     audio.play();
   }
 };
 
+// Stop playing the current sound
+const stop = () => {
+  if (isPlaying()) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+};
+
 const App = () => (
-  <Background>
+  <Background onClick={stop}>
     <FlexContainer>
       {sounds.map((item, i) => (
         <OneFourthCell key={i}>
-          <EmojiButton {...item} onClick={() => toggle(item)} />
+          <EmojiButton {...item} onClick={() => play(item)} />
         </OneFourthCell>
       ))}
     </FlexContainer>
