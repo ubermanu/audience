@@ -43,6 +43,11 @@ const sounds = [
     emoji: "🦗",
     name: "...",
     src: require("./media/121511__damonmensch__cricket-sound.mp3")
+  },
+  {
+    emoji: "💰",
+    name: "Tip",
+    src: require("./media/tip_sound_tiny_pQoarCfAi40.ogg")
   }
 ];
 
