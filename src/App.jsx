@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import EmojiButton from "./EmojiButton";
+import { play, stop } from "./SoundPlayer";
 import sounds from "./sounds";
 
 const Background = styled.div`
@@ -25,32 +26,6 @@ const OneFourthCell = styled.div`
   margin-bottom: 1rem;
   text-align: center;
 `;
-
-// Global sound object
-const audio = new Audio();
-
-// Returns TRUE if the player is running
-const isPlaying = () =>
-  audio.currentTime > 0 &&
-  !audio.paused &&
-  !audio.ended &&
-  audio.readyState > 2;
-
-// Play a sound
-const play = sound => {
-  if (!isPlaying()) {
-    audio.src = sound.src;
-    audio.play();
-  }
-};
-
-// Stop playing the current sound
-const stop = () => {
-  if (isPlaying()) {
-    audio.pause();
-    audio.currentTime = 0;
-  }
-};
 
 const App = () => (
   <Background onClick={stop}>
