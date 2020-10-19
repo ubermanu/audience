@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/audience/static/js/main.439c217e.chunk.js",
+    "main.js.map": "/audience/static/js/main.439c217e.chunk.js.map",
+    "runtime-main.js": "/audience/static/js/runtime-main.dd622173.js",
+    "runtime-main.js.map": "/audience/static/js/runtime-main.dd622173.js.map",
+    "static/css/2.764ccc25.chunk.css": "/audience/static/css/2.764ccc25.chunk.css",
+    "static/js/2.56c30823.chunk.js": "/audience/static/js/2.56c30823.chunk.js",
+    "static/js/2.56c30823.chunk.js.map": "/audience/static/js/2.56c30823.chunk.js.map",
+    "index.html": "/audience/index.html",
+    "precache-manifest.3832459a78a0b7baa2566f88689acc88.js": "/audience/precache-manifest.3832459a78a0b7baa2566f88689acc88.js",
+    "service-worker.js": "/audience/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/audience/static/css/2.764ccc25.chunk.css.map",
+    "static/js/2.56c30823.chunk.js.LICENSE.txt": "/audience/static/js/2.56c30823.chunk.js.LICENSE.txt",
+    "static/media/119029__joedeshon__polite-applause-09.ogg": "/audience/static/media/119029__joedeshon__polite-applause-09.3e890854.ogg",
+    "static/media/121511__damonmensch__cricket-sound.mp3": "/audience/static/media/121511__damonmensch__cricket-sound.e9ab0a1f.mp3",
+    "static/media/200254__rctperson85__badum-chhhhh.mp3": "/audience/static/media/200254__rctperson85__badum-chhhhh.37c70e21.mp3",
+    "static/media/336997__tim-kahn__boo-01.ogg": "/audience/static/media/336997__tim-kahn__boo-01.3441e177.ogg",
+    "static/media/336998__tim-kahn__awww-01.ogg": "/audience/static/media/336998__tim-kahn__awww-01.2ad16e92.ogg",
+    "static/media/337000__tim-kahn__cheer-01.ogg": "/audience/static/media/337000__tim-kahn__cheer-01.f3ba9e82.ogg",
+    "static/media/37234__shades__crowd-ahh-2.ogg": "/audience/static/media/37234__shades__crowd-ahh-2.b35f14a3.ogg",
+    "static/media/82385__benboncan__more-amusing.ogg": "/audience/static/media/82385__benboncan__more-amusing.a7253881.ogg",
+    "static/media/drum_roll_sound_effect_extended_high_quality_mzAfTmC3It0.ogg": "/audience/static/media/drum_roll_sound_effect_extended_high_quality_mzAfTmC3It0.402c506d.ogg",
+    "static/media/tip_sound_tiny_pQoarCfAi40.ogg": "/audience/static/media/tip_sound_tiny_pQoarCfAi40.b436347c.ogg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd622173.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.56c30823.chunk.js",
+    "static/js/main.439c217e.chunk.js"
+  ]
+}
