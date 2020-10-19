@@ -13,9 +13,3 @@ Audience is an open-source crowd reaction PWA.
     yarn build
 
 Then you can serve the `build` directory or deploy to Firebase hosting.
-
-### Development
-
-    yarn start
-
-You can as well use the provided dev container using Docker.
