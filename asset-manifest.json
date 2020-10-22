@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/audience/static/js/main.439c217e.chunk.js",
-    "main.js.map": "/audience/static/js/main.439c217e.chunk.js.map",
-    "runtime-main.js": "/audience/static/js/runtime-main.dd622173.js",
-    "runtime-main.js.map": "/audience/static/js/runtime-main.dd622173.js.map",
+    "main.js": "/audience/static/js/main.037a589c.chunk.js",
+    "main.js.map": "/audience/static/js/main.037a589c.chunk.js.map",
+    "runtime-main.js": "/audience/static/js/runtime-main.fd04974a.js",
+    "runtime-main.js.map": "/audience/static/js/runtime-main.fd04974a.js.map",
     "static/css/2.764ccc25.chunk.css": "/audience/static/css/2.764ccc25.chunk.css",
-    "static/js/2.56c30823.chunk.js": "/audience/static/js/2.56c30823.chunk.js",
-    "static/js/2.56c30823.chunk.js.map": "/audience/static/js/2.56c30823.chunk.js.map",
+    "static/js/2.d8e3a43f.chunk.js": "/audience/static/js/2.d8e3a43f.chunk.js",
+    "static/js/2.d8e3a43f.chunk.js.map": "/audience/static/js/2.d8e3a43f.chunk.js.map",
     "index.html": "/audience/index.html",
-    "precache-manifest.3832459a78a0b7baa2566f88689acc88.js": "/audience/precache-manifest.3832459a78a0b7baa2566f88689acc88.js",
+    "precache-manifest.2d6e5ec56b67d38f7a7249d69532fc85.js": "/audience/precache-manifest.2d6e5ec56b67d38f7a7249d69532fc85.js",
     "service-worker.js": "/audience/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/audience/static/css/2.764ccc25.chunk.css.map",
-    "static/js/2.56c30823.chunk.js.LICENSE.txt": "/audience/static/js/2.56c30823.chunk.js.LICENSE.txt",
+    "static/js/2.d8e3a43f.chunk.js.LICENSE.txt": "/audience/static/js/2.d8e3a43f.chunk.js.LICENSE.txt",
     "static/media/119029__joedeshon__polite-applause-09.ogg": "/audience/static/media/119029__joedeshon__polite-applause-09.3e890854.ogg",
     "static/media/121511__damonmensch__cricket-sound.mp3": "/audience/static/media/121511__damonmensch__cricket-sound.e9ab0a1f.mp3",
     "static/media/200254__rctperson85__badum-chhhhh.mp3": "/audience/static/media/200254__rctperson85__badum-chhhhh.37c70e21.mp3",
@@ -24,9 +24,9 @@
     "static/media/tip_sound_tiny_pQoarCfAi40.ogg": "/audience/static/media/tip_sound_tiny_pQoarCfAi40.b436347c.ogg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd622173.js",
+    "static/js/runtime-main.fd04974a.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.56c30823.chunk.js",
-    "static/js/main.439c217e.chunk.js"
+    "static/js/2.d8e3a43f.chunk.js",
+    "static/js/main.037a589c.chunk.js"
   ]
 }
