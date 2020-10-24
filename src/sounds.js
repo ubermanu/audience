@@ -45,6 +45,11 @@ const sounds = [
     src: require('./media/121511__damonmensch__cricket-sound.mp3'),
   },
   {
+    emoji: '🤔',
+    name: 'Hmmmm',
+    src: require('./media/469603__bolkmar__voice-male-humming-thinking.ogg'),
+  },
+  {
     emoji: '💰',
     name: 'Tip',
     src: require('./media/tip_sound_tiny_pQoarCfAi40.ogg'),
@@ -58,6 +63,16 @@ const sounds = [
     emoji: '🧹',
     name: 'Vacuum',
     src: require('./media/430632__inspectorj__vacuum-cleaner-on-idle-off-close-a.ogg'),
+  },
+  {
+    emoji: '🤮',
+    name: 'Puke',
+    src: require('./media/469888__georgisound__puking-and-diarrhea.ogg'),
+  },
+  {
+    emoji: '🤧',
+    name: 'Sneeze',
+    src: require('./media/505250__jpbillingsleyjr__a-man-sneezing.ogg'),
   },
 ];
 
