@@ -49,6 +49,11 @@ const sounds = [
     name: 'Tip',
     src: require('./media/tip_sound_tiny_pQoarCfAi40.ogg'),
   },
+  {
+    emoji: '😱',
+    name: 'Wilhelm',
+    src: require('./media/64939__syna-max__wilhelm-scream.ogg'),
+  },
 ];
 
 export default sounds;
