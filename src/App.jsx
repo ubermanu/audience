@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import EmojiButton from "./EmojiButton";
-import { play, stop } from "./SoundPlayer";
-import sounds from "./sounds";
+import React from 'react';
+import styled from 'styled-components';
+import EmojiButton from './EmojiButton';
+import { play, stop } from './SoundPlayer';
+import sounds from './sounds';
 
 const Background = styled.div`
   background: #fafafa;

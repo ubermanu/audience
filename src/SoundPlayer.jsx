@@ -9,7 +9,7 @@ const isPlaying = () =>
   audio.readyState > 2;
 
 // Play a sound
-export const play = (sound) => {
+export const play = sound => {
   if (!isPlaying()) {
     audio.src = sound.src;
     audio.play();

@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Button = styled.div`
   cursor: pointer;
@@ -13,7 +13,7 @@ const Emoji = styled.div`
 
 const Name = styled.div`
   font-size: 0.33em;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #000;
   margin-top: 1em;
 
