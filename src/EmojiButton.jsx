@@ -6,6 +6,7 @@ const Button = styled.div`
   cursor: pointer;
   text-align: center;
   font-size: 10vw;
+  user-select: none;
 `;
 
 const Emoji = styled.div`
@@ -20,7 +21,7 @@ const Name = styled.div`
 
   @media (prefers-color-scheme: dark) {
     color: #fff;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
   }
 `;
 

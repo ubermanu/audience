@@ -4,12 +4,12 @@ import EmojiButton from './EmojiButton';
 import sounds from './sounds';
 
 const Background = styled.div`
-  background: #fafafa;
+  background: #ecf0f1;
   min-height: 100vh;
   width: 100%;
 
   @media (prefers-color-scheme: dark) {
-    background: #212121;
+    background: #34495e;
   }
 `;
 
