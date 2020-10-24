@@ -28,7 +28,7 @@ const Name = styled.div`
 const EmojiButton = ({ emoji, name, src }) => {
   const [play, { stop, isPlaying }] = useSound(src);
   return (
-    <Button onClick={() => isPlaying ? stop() : play()} role="button">
+    <Button onClick={() => (isPlaying ? stop() : play())} role="button">
       <Emoji>
         <span role="img" aria-label={name}>
           {emoji}
