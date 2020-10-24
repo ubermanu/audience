@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import EmojiButton from './EmojiButton';
-import { play, stop } from './SoundPlayer';
 import sounds from './sounds';
 
 const Background = styled.div`
@@ -28,11 +27,11 @@ const OneFourthCell = styled.div`
 `;
 
 const App = () => (
-  <Background onClick={stop}>
+  <Background>
     <FlexContainer>
       {sounds.map((item, i) => (
         <OneFourthCell key={i}>
-          <EmojiButton {...item} onClick={() => play(item)} />
+          <EmojiButton {...item} />
         </OneFourthCell>
       ))}
     </FlexContainer>

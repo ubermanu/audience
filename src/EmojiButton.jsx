@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import useSound from 'use-sound';
 
 const Button = styled.div`
   cursor: pointer;
@@ -23,10 +24,15 @@ const Name = styled.div`
   }
 `;
 
-const EmojiButton = ({ emoji, name, src, ...rest }) => {
+const EmojiButton = ({ emoji, name, src }) => {
+  const [play, { stop, isPlaying }] = useSound(src);
   return (
-    <Button {...rest}>
-      <Emoji>{emoji}</Emoji>
+    <Button onClick={isPlaying ? stop : play} role="button">
+      <Emoji>
+        <span role="img" aria-label={name}>
+          {emoji}
+        </span>
+      </Emoji>
       <Name>{name}</Name>
     </Button>
   );
