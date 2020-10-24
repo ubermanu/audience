@@ -2,7 +2,7 @@
   "name": "audience",
   "description": "Crowd reaction soundboard",
   "homepage": "https://ubermanu.github.io/audience",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "private": false,
   "license": "MIT",
   "dependencies": {

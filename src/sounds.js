@@ -54,6 +54,11 @@ const sounds = [
     name: 'Wilhelm',
     src: require('./media/64939__syna-max__wilhelm-scream.ogg'),
   },
+  {
+    emoji: '🧹',
+    name: 'Vacuum',
+    src: require('./media/430632__inspectorj__vacuum-cleaner-on-idle-off-close-a.ogg'),
+  },
 ];
 
 export default sounds;
