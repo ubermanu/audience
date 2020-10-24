@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0837df46c7dcfc94fd923540d6d7f875",
+    "revision": "582549e035e0dbd33c726e06ae53c7d5",
     "url": "/audience/index.html"
   },
   {
-    "revision": "015d9899b80718ce745e",
+    "revision": "8a0084ccf1b3e55368cf",
     "url": "/audience/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "015d9899b80718ce745e",
-    "url": "/audience/static/js/2.883aae77.chunk.js"
+    "revision": "8a0084ccf1b3e55368cf",
+    "url": "/audience/static/js/2.f93d9f86.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/audience/static/js/2.883aae77.chunk.js.LICENSE.txt"
+    "url": "/audience/static/js/2.f93d9f86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "260811dbc22f68b2f51d",
-    "url": "/audience/static/js/3.227513bc.chunk.js"
+    "revision": "5fe66249c3299a668889",
+    "url": "/audience/static/js/3.3941454f.chunk.js"
   },
   {
     "revision": "287e48aeac3564a8b2b5685a67fb9216",
-    "url": "/audience/static/js/3.227513bc.chunk.js.LICENSE.txt"
+    "url": "/audience/static/js/3.3941454f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d7da820f7f5d4a950c3",
-    "url": "/audience/static/js/main.22f7eb74.chunk.js"
+    "revision": "4d1c58cc17cb0e7db790",
+    "url": "/audience/static/js/main.690ae0f1.chunk.js"
   },
   {
-    "revision": "b42579523c5ac9707796",
-    "url": "/audience/static/js/runtime-main.0941b7c8.js"
+    "revision": "500c1c5a535e0055a89b",
+    "url": "/audience/static/js/runtime-main.499170aa.js"
   },
   {
     "revision": "3e8908546b1884eb963733b2dbf0d036",
@@ -58,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b35f14a30c9a31c77016774eef368935",
     "url": "/audience/static/media/37234__shades__crowd-ahh-2.b35f14a3.ogg"
+  },
+  {
+    "revision": "9e50043824d8fc184b7e2e4fefacbcde",
+    "url": "/audience/static/media/430632__inspectorj__vacuum-cleaner-on-idle-off-close-a.9e500438.ogg"
+  },
+  {
+    "revision": "1d53f9c51824ad3ae74e07bdf85bf9fa",
+    "url": "/audience/static/media/64939__syna-max__wilhelm-scream.1d53f9c5.ogg"
   },
   {
     "revision": "a7253881cace710faf892b3476efdf59",
