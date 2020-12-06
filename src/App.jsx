@@ -13,13 +13,14 @@ const Background = styled.div`
   }
 `;
 
-const FlexContainer = styled.div`
-  max-width: 100%;
-  padding: 1rem;
+const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+  grid-gap: 2rem;
+  padding: 2rem;
 `;
 
-const OneFourthCell = styled.div`
-  width: 25%;
+const Item = styled.div`
   overflow-x: hidden;
   display: inline-block;
   margin-bottom: 1rem;
@@ -28,13 +29,13 @@ const OneFourthCell = styled.div`
 
 const App = () => (
   <Background>
-    <FlexContainer>
+    <GridContainer>
       {sounds.map((item, i) => (
-        <OneFourthCell key={i}>
+        <Item key={i}>
           <EmojiButton {...item} />
-        </OneFourthCell>
+        </Item>
       ))}
-    </FlexContainer>
+    </GridContainer>
   </Background>
 );
 

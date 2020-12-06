@@ -5,7 +5,7 @@ import useSound from 'use-sound';
 const Button = styled.div`
   cursor: pointer;
   text-align: center;
-  font-size: 10vw;
+  font-size: 3rem;
   user-select: none;
 `;
 
