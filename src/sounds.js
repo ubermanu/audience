@@ -74,4 +74,9 @@ export default [
     name: "Sneeze",
     src: "./media/505250__jpbillingsleyjr__a-man-sneezing.ogg",
   },
+  {
+    emoji: "👶",
+    name: "Cooing",
+    src: "./media/baby_cooing.ogg",
+  },
 ];
