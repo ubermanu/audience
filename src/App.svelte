@@ -23,6 +23,7 @@
     grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
     grid-gap: 2rem;
     padding: 2rem;
+    margin: 0;
   }
 
   li {
