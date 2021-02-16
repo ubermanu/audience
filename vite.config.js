@@ -1,11 +1,9 @@
-import { svelte } from "vite-plugin-svelte";
+import svelte from "rollup-plugin-svelte-hot";
 
 /**
  * @type { import('vite').UserConfig }
  */
-const config = {
+export default {
   plugins: [svelte()],
   rollupDedupe: ["svelte"],
 };
-
-export default config;
