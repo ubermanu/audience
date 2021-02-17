@@ -84,4 +84,9 @@ export default [
     name: "Wee Woo",
     src: "./media/469413__sofialomba__ambulance.ogg",
   },
+  {
+    emoji: "🐵",
+    name: "HA!",
+    src: "./media/458396__befig__monkey-cry.ogg",
+  },
 ];
