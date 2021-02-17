@@ -9,6 +9,13 @@
   <meta name="theme-color" content="#34495e">
   <meta name="description" content="Crowd reaction soundboard">
   <link rel="manifest" href="./manifest.json">
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js");
+      });
+    }
+  </script>
 </head>
 <body>
   <script type="module" src="./dist/main.js"></script>
