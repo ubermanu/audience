@@ -79,4 +79,9 @@ export default [
     name: "Cooing",
     src: "./media/baby_cooing.ogg",
   },
+  {
+    emoji: "🚑",
+    name: "Wee Woo",
+    src: "./media/469413__sofialomba__ambulance.ogg",
+  },
 ];
