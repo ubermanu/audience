@@ -13,7 +13,7 @@
       "imports": []
     },
     "dist/sounds.js": {
-      "bytes": 1821,
+      "bytes": 1916,
       "imports": []
     },
     "dist/EmojiButton.svelte.css": {
@@ -85,7 +85,7 @@
           "bytesInOutput": 0
         },
         "dist/sounds.js": {
-          "bytesInOutput": 1469
+          "bytesInOutput": 1544
         },
         "dist/EmojiButton.svelte.css": {
           "bytesInOutput": 0
@@ -100,7 +100,7 @@
           "bytesInOutput": 44
         }
       },
-      "bytes": 6887
+      "bytes": 6962
     },
     "../~~bundle~~/dist/main.css": {
       "imports": [],
