@@ -2,12 +2,12 @@
   "name": "audience",
   "description": "Crowd reaction soundboard",
   "homepage": "https://ubermanu.github.io/audience",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "export PUBLIC_URL='/audience/' && npm build",
+    "predeploy": "vite build --base=/audience/",
     "deploy": "gh-pages -t -d dist"
   },
   "dependencies": {
