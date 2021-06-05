@@ -1,7 +1,5 @@
-import App from "./App.svelte";
+import Audience from './Audience.svelte'
 
-const app = new App({
+export default new Audience({
   target: document.body,
-});
-
-export default app;
+})
