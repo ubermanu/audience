@@ -1,6 +1,6 @@
 <script>
   import "normalize.css";
-  import sounds from "./sounds";
+  import sounds from "./sounds.json";
   import EmojiButton from "./EmojiButton.svelte";
 </script>
 
