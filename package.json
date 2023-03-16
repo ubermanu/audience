@@ -1,7 +1,7 @@
 {
   "name": "@ubermanu/audience",
   "private": true,
-  "version": "3.0.1",
+  "version": "3.0.2",
   "type": "module",
   "description": "Crowd reaction soundboard",
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
