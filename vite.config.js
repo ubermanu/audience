@@ -4,5 +4,11 @@ import { VitePWA } from 'vite-plugin-pwa'
 import manifest from './src/manifest.json'
 
 export default defineConfig({
-  plugins: [svelte(), VitePWA({ manifest })],
+  plugins: [
+    svelte(),
+    VitePWA({
+      registerType: 'autoUpdate',
+      manifest,
+    }),
+  ],
 })

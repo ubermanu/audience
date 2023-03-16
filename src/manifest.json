@@ -4,15 +4,21 @@
   "description": "Crowd reaction soundboard",
   "theme_color": "#34495e",
   "icons": [
-    {
-      "src": "applause-96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "applause-144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    }
-  ]
+  {
+    "src": "android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },
+  {
+    "src": "android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }
+]
 }

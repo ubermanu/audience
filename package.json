@@ -1,8 +1,9 @@
 {
   "name": "@ubermanu/audience",
-  "description": "Crowd reaction soundboard",
+  "private": true,
   "version": "3.0.0",
   "type": "module",
+  "description": "Crowd reaction soundboard",
   "author": "Emmanuel Vodor <manu@paca.happy-dev.fr>",
   "repository": {
     "type": "git",
@@ -12,7 +13,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",

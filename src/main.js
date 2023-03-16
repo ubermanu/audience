@@ -1,5 +1,5 @@
 import Audience from './Audience.svelte'
 
 export default new Audience({
-  target: document.body,
+  target: document.getElementById('app'),
 })
