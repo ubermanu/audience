@@ -1,6 +1,8 @@
 {
   "name": "Audience",
+  "short_name": "Audience",
   "description": "Crowd reaction soundboard",
+  "theme_color": "#34495e",
   "icons": [
     {
       "src": "applause-96.png",
@@ -12,9 +14,5 @@
       "type": "image/png",
       "sizes": "144x144"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
