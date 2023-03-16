@@ -18,22 +18,31 @@
     return audio.duration > 0 && !audio.paused
   }
 
-  function toggle() {
+  function handleClick() {
     return isPlaying() ? stop() : play()
   }
 </script>
 
-<div class="button" on:click={toggle} role="button">
+<button class="button" on:click={handleClick}>
   <i class="emoji" role="img" aria-label={name}>{emoji}</i>
   <span class="name">{name}</span>
-</div>
+</button>
 
 <style>
   .button {
-    cursor: pointer;
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
     font-size: 3rem;
     user-select: none;
+    cursor: pointer;
+  }
+
+  .button:focus {
+    outline: none;
   }
 
   .emoji {
