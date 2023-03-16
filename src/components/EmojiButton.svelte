@@ -39,6 +39,11 @@
     font-size: 3rem;
     user-select: none;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .button:focus {
@@ -47,7 +52,7 @@
 
   .emoji {
     font-style: normal;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .name {

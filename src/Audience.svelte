@@ -38,8 +38,6 @@
 
   li {
     overflow-x: hidden;
-    display: inline-block;
-    margin-bottom: 1rem;
-    text-align: center;
+    margin-bottom: 0;
   }
 </style>
