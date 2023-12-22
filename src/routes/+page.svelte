@@ -1,10 +1,15 @@
 <script>
   import sounds from '../sounds.js'
-  import EmojiButton from '$lib/EmojiButton.svelte'
+  import EmojiButton from './EmojiButton.svelte'
 </script>
 
-<main>
-  <ul>
+<main
+  class="flex min-h-screen flex-col bg-amber-50 bg-gradient-to-br from-amber-50 to-amber-100 text-amber-900 dark:bg-amber-950 dark:from-amber-950 dark:to-amber-900 dark:text-amber-50"
+>
+  <ul
+    class="box-border grid gap-8 p-8"
+    style:grid-template-columns="repeat(auto-fill, minmax(8rem, 1fr))"
+  >
     {#each sounds as sound}
       <li>
         <EmojiButton data={sound} />
@@ -12,31 +17,3 @@
     {/each}
   </ul>
 </main>
-
-<style>
-  main {
-    background: #ecf0f1;
-    width: 100%;
-    min-height: 100vh;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    main {
-      background: #34495e;
-    }
-  }
-
-  ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
-    list-style: none;
-    grid-gap: 2rem;
-    margin: 0;
-    padding: 2rem;
-  }
-
-  li {
-    margin-bottom: 0;
-    overflow-x: hidden;
-  }
-</style>
