@@ -3,7 +3,6 @@
   "name": "Audience",
   "short_name": "Audience",
   "description": "Crowd reaction soundboard",
-  "display": "fullscreen",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
