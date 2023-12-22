@@ -8,6 +8,13 @@ declare global {
     // interface PageState {}
     // interface Platform {}
   }
+
+  interface SoundData {
+    name: string
+    emoji: string
+    src: { default: string }
+    animation?: string
+  }
 }
 
 export {}
