@@ -1,9 +1,16 @@
 <script>
-  export let emoji
-  export let name
-  export let src
+  /** @type {{ data: SoundData }} */
+  const { data } = $props()
 
-  const audio = new Audio(src)
+  /**
+   * @typedef {Object} SoundData
+   * @property {string} name
+   * @property {string} emoji
+   * @property {{ default: string }} src
+   */
+  const { name, emoji, src } = data
+
+  const audio = new Audio(src.default)
 
   function play() {
     audio.play()
@@ -30,20 +37,20 @@
 
 <style>
   .button {
-    appearance: none;
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-size: 3rem;
-    user-select: none;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    appearance: none;
+    cursor: pointer;
+    margin: 0;
+    border: none;
+    background: none;
+    padding: 0;
     width: 100%;
+    font-size: 3rem;
+    user-select: none;
+    text-align: center;
   }
 
   .button:focus {
@@ -57,10 +64,10 @@
 
   .name {
     display: inline-block;
+    margin-top: 1em;
+    color: #000;
     font-size: 0.33em;
     font-family: 'Arial', sans-serif;
-    color: #000;
-    margin-top: 1em;
   }
 
   @media (prefers-color-scheme: dark) {

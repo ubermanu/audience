@@ -1,14 +1,13 @@
 <script>
-  import 'normalize.css'
-  import sounds from '$lib/sounds.json'
-  import EmojiButton from '$lib/components/EmojiButton.svelte'
+  import sounds from '../sounds.js'
+  import EmojiButton from '$lib/EmojiButton.svelte'
 </script>
 
 <main>
   <ul>
     {#each sounds as sound}
       <li>
-        <EmojiButton {...sound} />
+        <EmojiButton data={sound} />
       </li>
     {/each}
   </ul>
@@ -17,8 +16,8 @@
 <style>
   main {
     background: #ecf0f1;
-    min-height: 100vh;
     width: 100%;
+    min-height: 100vh;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -28,16 +27,16 @@
   }
 
   ul {
-    list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    list-style: none;
     grid-gap: 2rem;
-    padding: 2rem;
     margin: 0;
+    padding: 2rem;
   }
 
   li {
-    overflow-x: hidden;
     margin-bottom: 0;
+    overflow-x: hidden;
   }
 </style>
