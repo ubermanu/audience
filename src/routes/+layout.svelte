@@ -1,14 +1,12 @@
 <script>
   import '../app.postcss'
   import { pwaInfo } from 'virtual:pwa-info'
-  import { onMount } from 'svelte'
 
-  onMount(async () => {
-    if (pwaInfo) {
-      const { registerSW } = await import('virtual:pwa-register')
+  if (pwaInfo) {
+    import('virtual:pwa-register').then(({ registerSW }) =>
       registerSW({ immediate: true })
-    }
-  })
+    )
+  }
 </script>
 
 <svelte:head>
