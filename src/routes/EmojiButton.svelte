@@ -32,7 +32,7 @@
 </script>
 
 <button
-  class="flex w-full cursor-pointer flex-col items-center justify-center gap-2 p-4"
+  class="flex w-full cursor-pointer flex-col items-center justify-center gap-4"
   onclick={() => (playing ? stop() : play())}
 >
   <span
@@ -43,5 +43,5 @@
   >
     {emoji}
   </span>
-  <span class="text-2xl">{name}</span>
+  <span class="text-lg font-light">{name}</span>
 </button>

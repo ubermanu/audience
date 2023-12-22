@@ -8,7 +8,7 @@
 >
   <ul
     class="box-border grid gap-8 p-8"
-    style:grid-template-columns="repeat(auto-fill, minmax(8rem, 1fr))"
+    style:grid-template-columns="repeat(auto-fill, minmax(3rem, 1fr))"
   >
     {#each sounds as sound}
       <li>
