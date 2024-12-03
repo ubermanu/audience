@@ -1,8 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/web-manifest.json",
+  "id": "c5042c27-8ac4-4f0f-b31a-3b8959f3ef25",
   "name": "Audience",
   "short_name": "Audience",
   "description": "Crowd reaction soundboard",
+  "background_color": "#e8e8e8",
+  "theme_color": "#fde030",
   "icons": [
     {
       "src": "android-chrome-192x192.png",

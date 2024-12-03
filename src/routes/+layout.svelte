@@ -1,5 +1,5 @@
 <script>
-  import '../app.postcss'
+  import '../app.css'
   import { pwaInfo } from 'virtual:pwa-info'
 
   if (pwaInfo) {
@@ -7,10 +7,12 @@
       registerSW({ immediate: true })
     )
   }
+
+  const { children } = $props()
 </script>
 
 <svelte:head>
   {@html pwaInfo?.webManifest.linkTag}
 </svelte:head>
 
-<slot />
+{@render children()}
