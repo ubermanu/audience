@@ -16,7 +16,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "format": "prettier -w **/*.{js,css,svelte,json}"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.6",
@@ -26,6 +27,7 @@
     "@ubermanu/prettier-config": "^3.4.0",
     "@vite-pwa/sveltekit": "^0.6.6",
     "animate.css": "^4.1.1",
+    "postcss": "^8.4.49",
     "prettier": "^3.4.1",
     "prettier-plugin-svelte": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.9",

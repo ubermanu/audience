@@ -8,7 +8,7 @@
     )
   }
 
-  const { children } = $props();
+  const { children } = $props()
 </script>
 
 <svelte:head>

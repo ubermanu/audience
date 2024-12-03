@@ -13,11 +13,11 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         ...manifest,
-        display: "standalone",
+        display: 'standalone',
       },
     }),
   ],
   build: {
-    target: "ES2022",
+    target: 'ES2022',
   },
 })
