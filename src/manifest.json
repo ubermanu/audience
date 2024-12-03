@@ -5,6 +5,8 @@
   "short_name": "Audience",
   "description": "Crowd reaction soundboard",
   "display": "standalone",
+  "background_color": "#e8e8e8",
+  "theme_color": "#fde030",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
