@@ -11,7 +11,10 @@ export default defineConfig({
     SvelteKitPWA({
       strategies: 'generateSW',
       registerType: 'autoUpdate',
-      manifest,
+      manifest: {
+        ...manifest,
+        display: "standalone",
+      },
     }),
   ],
   build: {
